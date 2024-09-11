@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-image: radial-gradient(rgb(158, 125, 171), black);
+    color: #ffffff;
+}
+
+h1 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-image: linear-gradient(rgb(158, 125, 171), black);
+}
+
+header {
+    position: fixed;
+}
+
+footer {
+    position: fixed;
+    margin-top: 0;
+    bottom: 0;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    border: 3px solid black;
+}
+
+/* Class Selectors */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
